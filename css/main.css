@@ -59,6 +59,10 @@ body {
 	background-color: #F1EBE5;
 }
 
+section, footer {
+	text-align: center;
+}
+
 hr {
 	background: var(--accent);
 	width: 60%;
@@ -79,6 +83,7 @@ hr:not([size]) {
 	position: absolute;
 	right: 0;
 	z-index: 1;
+	text-align: center;
 }
 
 .top__content {
@@ -95,9 +100,6 @@ hr:not([size]) {
 .top__phone {
 	font-size: 28px;
 	font-weight: 700;
-}
-
-.top__phone a {
 	color: var(--text);
 }
 
@@ -110,9 +112,11 @@ hr:not([size]) {
 	height: 800px;
 	background: url(/images/header__bg.webp) center bottom no-repeat;
 	background-size: cover;
+	position: relative;
 }
 
 .header__content {
+	position: absolute;
 	background-color: rgba(0,0,0, .6);
 	top: 15%;
 	color: #fff;
@@ -124,6 +128,11 @@ hr:not([size]) {
 	text-transform: uppercase;
 }
 
+.header__p {
+	font-size: xx-large;
+	line-height: 1em;
+}
+
 .services__title {
 	font-weight: 700;
 	text-transform: uppercase;
@@ -131,6 +140,11 @@ hr:not([size]) {
 
 .service {
 	position: relative;
+}
+
+.service__img, .partner__img {
+	max-width: 100%;
+	height: auto;
 }
 
 .service__title {
