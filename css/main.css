@@ -1,31 +1,32 @@
 /* USER VARIABLES SECTION */
 
 :root {
-	--accent: orange;
-	--text: #333;
+	--accent: #FFB805;
+	--text: #3B3431;
 	--regular-text: 16px;
 	--lineheight: 1.65;
-	--userfont: roboto-st, sans-serif;
+	--userfont: bender-st, sans-serif;
 	--systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
 }
 
 /* BOOTSTRAP SETTINGS SECTION */
 
 /* gutter 20px (10px + 10px). Comment this code for default gutter start at 1.5rem (24px) wide. */
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl { --bs-gutter-x: .625rem; }
-.row, .row > * { --bs-gutter-x: 1.25rem; }
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl { --bs-gutter-x: .625rem; }
+.row, .row > * { --bs-gutter-x: 1.25rem; } */
 
 /* FONTS LOAD SECTION */
 
-@font-face { src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 400; font-style: normal; }
+/* @font-face { src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 400; font-style: normal; }
 @font-face { src: url("../fonts/roboto-italic-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 400; font-style: italic; }
 @font-face { src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 700; font-style: normal; }
-@font-face { src: url("../fonts/roboto-bolditalic-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 700; font-style: italic; }
-
+@font-face { src: url("../fonts/roboto-bolditalic-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 700; font-style: italic; } */
+@font-face { src: url("../fonts/bender.woff2") format("woff2"); font-family: "bender-st"; font-weight: 400; font-style: normal; font-display: swap;}
+@font-face { src: url("../fonts/benderbold.woff2") format("woff2"); font-family: "bender-st"; font-weight: 700; font-style: normal; font-display: swap;}
 /* GENERAL CSS SETTINGS */
 
 ::placeholder { color: #666; }
-::selection { background-color: var(--accent); color: #fff; }
+::selection { background-color: var(--accent); color: var(--text); text-shadow: 0 0 0 #000;}
 input, textarea { outline: none; }
 input:focus:required:invalid, textarea:focus:required:invalid { border-color: red; }
 input:required:valid, textarea:required:valid { border-color: green; }
@@ -51,4 +52,126 @@ body {
 .accent {
 	color: var(--accent);
 	font-weight: bold;
+}
+
+/* main styles */
+body {
+	background-color: #F1EBE5;
+}
+
+hr {
+	background: var(--accent);
+	width: 60%;
+	max-width: 200px;
+	opacity: 1;
+}
+
+hr:not([size]) {
+	height: 3px;
+}
+
+.accent_bg {
+	background-color: var(--accent);
+}
+
+.top {
+	background-color: #F1EBE5;
+	position: absolute;
+	right: 0;
+	z-index: 1;
+}
+
+.top__content {
+	display: none;
+}
+
+.top__title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+
+.top__phone {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.top__phone a {
+	color: var(--text);
+}
+
+.top__icon {
+	height: 32px;
+	width: auto;
+}
+
+.header {
+	height: 800px;
+	background: url(/images/header__bg.webp) center bottom no-repeat;
+	background-size: cover;
+}
+
+.header__content {
+	background-color: rgba(0,0,0, .6);
+	top: 15%;
+	color: #fff;
+	right: 10%;
+}
+.header__title {
+	line-height: 1em;
+	text-shadow: 0 0 6px #000;
+	text-transform: uppercase;
+}
+
+.services__title {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.service {
+	position: relative;
+}
+
+.service__title {
+	font-size: 22px;
+	max-width: 100px;
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: #fff;
+	text-shadow: 0 0 5px #000;
+	line-height: 1em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.advantage__title {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.requirement__title {
+	font-weight: 700;
+	line-height: 1em;
+	font-size: 52px;
+}
+
+.requirement__p {
+	line-height: 1em;
+}
+
+.partners__title {
+	line-height: 1em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.partners__hr {
+	background: var(--text);
+}
+
+.footer {
+	background-color: #0F0F0F;
+	color: #fff;
 }

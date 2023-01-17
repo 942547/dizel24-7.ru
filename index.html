@@ -1,43 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
+
+	<link rel="preload" as="image" href="images/header__bg_mobile.webp" type="image/webp">
+	<link rel="preload" as="image" href="images/service_1.webp" type="image/webp">
 
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>Simple Starter</title>
-	<meta name="description" content="Simple Starter Description">
+	<title>Доставка дизельного топлива</title>
+	<meta name="description" content="Доставка дизтоплива по Белгороду и Белгородской области">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 
 	<link rel="icon" href="images/favicon.png">
-	<meta property="og:image" content="images/preview.jpg">
+	<meta property="og:image" content="images/header__bg.jpg">
 
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
-	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
 
-	<script src="libs/jquery/jquery-3.6.0.min.js" defer></script>
-
-	<script src="js/common.js" defer></script>
+	<!-- Yandex.Metrika counter -->
+	<script
+		type="text/javascript"> (function (m, e, t, r, i, k, a) { m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) }; m[i].l = 1 * new Date(); for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } } k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a) })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(92092251, "init", { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true, trackHash: true }); </script>
+	<noscript>
+		<div><img src="https://mc.yandex.ru/watch/92092251" style="position:absolute; left:-9999px;" alt="alt" /></div>
+	</noscript>
+	<!-- /Yandex.Metrika counter -->
+	
+	<!-- <script src="libs/jquery/jquery-3.6.0.min.js" defer></script> -->
+	<!-- <script src="js/common.js" defer></script> -->
 
 </head>
 
 <body>
-
-	<div class="container"><br>
-		<div class="row">
-			<div class="col-lg-8">
-				<img class="image" src="images/preview.png" alt="Image Example">
-			</div>
-			<div class="col text">
-				<span class="accent">Simple Starter</span>. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quos ab, incidunt hic recusandae animi nesciunt fugiat ipsa velit nobis, quam corrupti veritatis, perferendis facere et odit autem corporis molestias?
-			</div>
+	<div class="top">
+		<div class="top__content pt-1">
+			<div class="top__title text-center">Доставка дизельного топлива</div>
+			<div class="top__p text-center">по Белгороду и Белгородской области</div>
+		</div>
+		<div class="top__phone">
+			<a class='d-block py-1 px-3 accent_bg text-center' href="tel:+79645852385">
+				<img height="32" width="32" class='top__icon me-3' src="/images/icon_24-7.webp" alt="alt">+7 (964) 585-23-85</a>
 		</div>
 	</div>
 
+	<header class="header position-relative">
+		<div class="header__content py-3 px-4 position-absolute">
+			<h1 class="header__title text-center display-5">Доставка дизельного топлива</h1>
+			<div class="header__p text-center h2">по Белгороду и Белгородской области</div>
+		</div>
+	</header>
+
+	<section class="services py-5">
+		<div class="container">
+			<h2 class="services__title text-center mb-4">Мы предлагаем доставку<br>дизтоплива для</h2>
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+				<div class="col">
+					<div class="service">
+						<img width="350" height="350" src="images/service_1.webp" alt="alt" class="service__img img-fluid">
+						<div class="service__title">Спецтехники</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="service">
+						<img width="350" height="350" src="images/service_2.webp" alt="alt" class="service__img img-fluid">
+						<div class="service__title">Котеджей</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="service">
+						<img width="350" height="350" src="images/service_3.webp" alt="alt" class="service__img img-fluid">
+						<div class="service__title">Генераторов</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="service">
+						<img width="350" height="350" src="images/service_4.webp" alt="alt" class="service__img img-fluid">
+						<div class="service__title">Сельхозтехники</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-5">
+		<div class="container">
+			<div class="advantage">
+				<h3 class="advantage__title text-center">Работаем 24/7</h3>
+				<p class="text-center fs-5">Круглосуточно принимаем звонки и доставляем топливо.</p>
+				<hr class="my-5 mx-auto">
+			</div>
+			<div class="advantage">
+				<h3 class="advantage__title text-center">Качество топлива</h3>
+				<p class="text-center fs-5">Мы закупаем топливо напрямую с НПЗ. Предоставляем паспорт качества.</p>
+				<hr class="my-5 mx-auto">
+			</div>
+			<div class="advantage">
+				<h3 class="advantage__title text-center">Доставка в срок</h3>
+				<p class="text-center fs-5">Доставим топливо к нужному сроку в любую точку Белгородской области.</p>
+				<hr class="my-5 mx-auto">
+			</div>
+			<div class="advantage">
+				<h3 class="advantage__title text-center">Все по счетчику</h3>
+				<p class="text-center fs-5">Нужный объем топлива без недолива.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="requirement py-5 accent_bg">
+		<div class="requirement__title text-center">от 500 л.</div>
+		<p class="requirement__p text-center m-0">минимальный объем заказа</p>
+	</section>
+
+	<section class="description py-5 text-center fs-5">
+		<div class="container">
+			<p>Осуществляем доставку топлива по Белгороду и области, а так же заправку вашей техники.</p>
+			<p>Машины укомплектованы счетчиками, заправочными пистолетами, любая форма оплаты.</p>
+		</div>
+	</section>
+
+	<section class="partners py-5 accent_bg">
+		<div class="container">
+			<h2 class="partners__title text-center">Наши партнеры</h2>
+			<hr class="partners__hr my-4 mx-auto">
+			<div class="row g-2 g-sm-3">
+				<div class="col">
+					<div class="service">
+						<img width="350" height="350" src="images/partner_1.webp" alt="alt" class="service__img img-fluid">
+					</div>
+				</div>
+				<div class="col">
+					<div class="service">
+						<img width="350" height="350" src="images/partner_2.webp" alt="alt" class="service__img img-fluid">
+					</div>
+				</div>
+				<div class="col">
+					<div class="service">
+						<img width="350" height="350" src="images/partner_3.webp" alt="alt" class="service__img img-fluid">
+					</div>
+				</div>
+				<div class="col">
+					<div class="service">
+						<img width="350" height="350" src="images/partner_4.webp" alt="alt" class="service__img img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer py-5">
+		<div class="container">
+			<p class="footer__p text-center m-0">Реквизиты: ООО «Альянс», ИНН 3123454017, КПП 312301001, ОГРН
+				1193123012015.<br>Наш адрес: 308010, г. Белгород, пр-т Б. Хмельницкого, д. 160, оф. 203</p>
+		</div>
+	</footer>
+
 </body>
+
 </html>

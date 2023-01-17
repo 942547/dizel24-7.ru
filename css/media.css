@@ -17,12 +17,33 @@
 
 /* sm <= Medium (md) */
 @media (max-width : 768px) {
+	.header {
+		background: url(/images/header__bg_mobile.webp) center bottom no-repeat;
+		background-size: cover;
+	}
+	.service__img {
+		width: 100%;
+	}
 
 }
 
 /* xs <= Small (sm) */
 @media (max-width : 576px) {
-
+	body
+	.top {
+		position: sticky;
+		top: 0;
+		box-shadow: 0 0 3px 6px rgba(0,0,0, .3);
+	}
+	.top__content {
+		display: block;
+	}
+	.header {
+		height: 250px;
+	}
+	.header__content {
+		display: none;
+	}
 }
 
 
