@@ -1,3 +1,1 @@
-<p><img src="https://raw.githubusercontent.com/agragregra/Simple-Starter/main/images/preview.png" alt="Start HTML Template"></p>
-<p>Clone:</p>
-<pre>git clone https://github.com/agragregra/Simple-Starter .; rm -rf trunk .gitignore readme.md .git</pre>
+<p><img src="https://github.com/942547/dizel24-7.ru/blob/main/preview.png" alt="Dizel24-7.ru"></p>
