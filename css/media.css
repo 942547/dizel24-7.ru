@@ -49,3 +49,9 @@
 		background-image: url(/images/header__bg_576.webp)
 	}
 }
+
+@media (max-width : 340px) {
+	.top__icon {
+		display: none;
+	}
+}
