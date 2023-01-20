@@ -64,6 +64,11 @@ footer {
 	text-align: center;
 }
 
+h1, h2, h3 {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
 hr {
 	background: var(--accent);
 	width: 60%;
@@ -129,17 +134,11 @@ a.top__phone {
 .header__title {
 	line-height: 1em;
 	text-shadow: 0 0 6px #000;
-	text-transform: uppercase;
 }
 
 .header__p {
 	font-size: xx-large;
 	line-height: 1em;
-}
-
-.services__title {
-	font-weight: 700;
-	text-transform: uppercase;
 }
 
 .service {
@@ -165,11 +164,6 @@ a.top__phone {
 	text-transform: uppercase;
 }
 
-.advantage__title {
-	font-weight: 700;
-	text-transform: uppercase;
-}
-
 .requirement__title {
 	font-weight: 700;
 	line-height: 1em;
@@ -178,12 +172,6 @@ a.top__phone {
 
 .requirement__p {
 	line-height: 1em;
-}
-
-.partners__title {
-	line-height: 1em;
-	font-weight: 700;
-	text-transform: uppercase;
 }
 
 .partners__hr {
