@@ -8,19 +8,19 @@
 }
 
 @font-face {
-	src: url("../fonts/bender.woff2") format("woff2");
-	font-family: "bender-st";
-	font-weight: 400;
-	font-style: normal;
 	font-display: swap;
+	font-family: "bender-st";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/bender.woff2") format("woff2");
 }
 
 @font-face {
-	src: url("../fonts/benderbold.woff2") format("woff2");
-	font-family: "bender-st";
-	font-weight: 700;
-	font-style: normal;
 	font-display: swap;
+	font-family: "bender-st";
+	font-style: normal;
+	font-weight: 700;
+	src: url("../fonts/benderbold.woff2") format("woff2");
 }
 
 ::placeholder {
@@ -49,14 +49,14 @@ textarea:required:valid {
 }
 
 body {
+	background-color: #F1EBE5;
+	color: var(--text);
 	font-family: var(--userfont);
 	font-size: var(--regular-text);
 	line-height: var(--lineheight);
-	color: var(--text);
 	min-width: 320px;
-	position: relative;
 	overflow-x: hidden;
-	background-color: #F1EBE5;
+	position: relative;
 }
 
 section,
@@ -64,16 +64,18 @@ footer {
 	text-align: center;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
 hr {
 	background: var(--accent);
-	width: 60%;
 	max-width: 200px;
 	opacity: 1;
+	width: 60%;
 }
 
 hr:not([size]) {
@@ -88,8 +90,8 @@ hr:not([size]) {
 	background-color: #F1EBE5;
 	position: absolute;
 	right: 0;
-	z-index: 1;
 	text-align: center;
+	z-index: 1;
 }
 
 .top__content {
@@ -97,16 +99,16 @@ hr:not([size]) {
 }
 
 .top__title {
-	font-weight: 700;
 	font-size: 20px;
+	font-weight: 700;
 	line-height: 1em;
 	text-transform: uppercase;
 }
 
 a.top__phone {
+	color: var(--text);
 	font-size: 28px;
 	font-weight: 700;
-	color: var(--text);
 }
 
 .top__icon {
@@ -124,16 +126,15 @@ a.top__phone {
 }
 
 .header__content {
-	position: absolute;
 	background-color: rgba(0, 0, 0, .6);
-	top: 15%;
 	color: #fff;
+	position: absolute;
 	right: 10%;
+	top: 15%;
 }
 
 .header__title {
 	line-height: 1em;
-	text-shadow: 0 0 6px #000;
 }
 
 .header__p {
@@ -147,27 +148,27 @@ a.top__phone {
 
 .service__img,
 .partner__img {
-	max-width: 100%;
 	height: auto;
+	max-width: 100%;
 }
 
 .service__title {
+	bottom: 15px;
+	color: #fff;
 	font-size: 22px;
+	font-weight: 700;
+	left: 15px;
+	line-height: 1em;
 	max-width: 100px;
 	position: absolute;
-	bottom: 15px;
-	left: 15px;
-	color: #fff;
 	text-shadow: 0 0 5px #000;
-	line-height: 1em;
-	font-weight: 700;
 	text-transform: uppercase;
 }
 
 .requirement__title {
+	font-size: 52px;
 	font-weight: 700;
 	line-height: 1em;
-	font-size: 52px;
 }
 
 .requirement__p {
