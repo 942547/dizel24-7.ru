@@ -24,18 +24,22 @@
 	.top {
 		position: sticky;
 		top: 0;
-		box-shadow: 0 0 3px 6px rgba(0,0,0, .3);
+		box-shadow: 0 0 3px 6px rgba(0, 0, 0, .3);
 	}
+
 	.top__content {
 		display: block;
 	}
+
 	.header {
 		height: 300px;
 		background-image: url(/images/header__bg_768.webp)
 	}
+
 	.header__content {
 		display: none;
 	}
+
 	.service__img {
 		width: 100%;
 	}
