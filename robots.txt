@@ -1,4 +1,2 @@
 User-agent: *
-Disallow: 
 Host: https://dizel24-7.ru
-Sitemap: sitemap.xml
