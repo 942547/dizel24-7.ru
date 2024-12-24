@@ -117,7 +117,7 @@ a.top__phone {
 }
 
 .header {
-	background-image: url(/images/header__bg.webp);
+	background-image: url(../images/header__bg.webp);
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
